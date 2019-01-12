@@ -20,7 +20,7 @@ describe('whisper(string)', function() {
 })
 
 function logShout(string){
-  return string.toUpperCase()
+  return string.toUpperCase(spy)
 }
 
 describe('logShout(string)', function() {
