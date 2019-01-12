@@ -52,7 +52,9 @@ describe('logWhisper(string)', function() {
 })
 
 function sayHiToGrandma(string) {
-  return string.it()
+   if (string.toLowerCase() === string) {
+     return "I can't hear you!"
+   }
 }
 
 
